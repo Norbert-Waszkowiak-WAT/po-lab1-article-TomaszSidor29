@@ -1,7 +1,7 @@
-#include "article.h"
-#include "chapter.h"
-#include "author.h"
-#include "book.h"
+#include "Article.h"
+#include "Chapter.h"
+#include "Author.h"
+#include "Book.h"
 
 int main() {
     Author jan("Jan", "Kowalski");
