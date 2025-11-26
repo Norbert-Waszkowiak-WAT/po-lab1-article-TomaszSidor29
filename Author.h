@@ -1,3 +1,6 @@
+#ifndef AUTHOR_H
+#define AUTHOR_H
+
 #include <iostream>
 using namespace std;
 
@@ -12,3 +15,5 @@ public:
 	string getName();
 	string getSurname();
 };
+
+#endif

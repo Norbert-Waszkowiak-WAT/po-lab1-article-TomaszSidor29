@@ -1,3 +1,6 @@
+#ifndef CHAPTER_H
+#define CHAPTER_H
+
 #include <iostream>
 #include "Author.h"
 using namespace std;
@@ -17,4 +20,4 @@ public:
 	int getChapterNumber();
 };
 
-//0420
+#endif

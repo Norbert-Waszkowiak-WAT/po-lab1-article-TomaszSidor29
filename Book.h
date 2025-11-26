@@ -1,3 +1,6 @@
+#ifndef BOOK_H
+#define BOOK_H
+
 #include <iostream>
 #include <vector>
 #include "Chapter.h"
@@ -20,3 +23,5 @@ public:
 	int getChapterNumber();
 	vector<Chapter> getChapters();
 };
+
+#endif

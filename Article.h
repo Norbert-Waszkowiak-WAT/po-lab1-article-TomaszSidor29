@@ -1,3 +1,6 @@
+#ifndef ARTICLE_H
+#define ARTICLE_H
+
 #include <iostream>
 #include "Author.h"
 using namespace std;
@@ -18,3 +21,5 @@ public:
 	int getPublicationYear();
 	string getJournal();
 };
+
+#endif
