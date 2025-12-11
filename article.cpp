@@ -1,0 +1,22 @@
+#include <iostream>
+#include "article.h"
+
+using namespace std;
+
+Article::Article(): title(""),author(Author("","")),publicationYear(0),journal(""){}
+    Article::Article(string articleTitle,Author articleAuthor,int year,string journalName):title(articleTitle),author(articleAuthor),publicationYear(year),journal(journalName){
+
+    }
+    Article::Article(Article &other):author(other.author),title(other.title),publicationYear(other.publicationYear),journal(other.journal){}
+    string Article ::getTitle(){
+        return title;
+    }
+    Author Article :: getAuthor(){
+        return author;
+    }
+    int Article :: getPublicationYear(){
+        return publicationYear;
+    }
+    string Article::getJournal(){
+        return journal;
+    }
